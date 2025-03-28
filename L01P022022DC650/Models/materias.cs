@@ -6,7 +6,8 @@ namespace L01P022022DC650.Models
         [Key]
         public int id { get; set; }
         public string materia { get; set; }
-        public string unidades_valorativas { get; set; }
+        [Display(Name = "Unidades Valorativas")]
+        public int unidades_valorativas { get; set; }
         public char estado { get; set; }
     }
 }
